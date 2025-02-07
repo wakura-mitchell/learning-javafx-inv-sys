@@ -1,0 +1,202 @@
+.top-form{
+    -fx-background-color: #fff;
+    -fx-border-color: #000;
+    -fx-border-width: .4px .4px .2px .4px;
+}
+
+.semi-top-form{
+    -fx-background-color: #efefef;
+    -fx-border-color: #000;
+    -fx-border-width: .2px .4px .4px .4px;
+}
+
+.close{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+}
+
+.close:hover{
+    -fx-background-color:#f43f57;
+}
+
+.minimize{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+}
+
+.minimize:hover{
+    -fx-background-color:#ddd;
+}
+
+.nav-form{
+    -fx-background-color:linear-gradient(to bottom right, #23825e, #484926);
+}
+
+.nav-btn{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+    -fx-font-size: 13px;
+    -fx-font-family: "Rockwell";
+    -fx-text-fill: #fff;
+    -fx-alignment: CENTER;
+}
+
+.logout{
+    -fx-background-color:#139662;
+    -fx-background-radius: 10px;
+    -fx-cursor:hand;
+}
+
+.logout:hover{
+    -fx-background-color:#0ab570;
+}
+
+.shadow{
+    -fx-effect:dropshadow(three-pass-box, rgba(0,0,0,0.4), 5,0,0,0);
+}
+
+.white-bg{
+    -fx-background-color:#fff;
+    -fx-background-radius: 10px;
+}
+
+.card{
+    -fx-background-color:linear-gradient(to bottom right, #2e4d39, #396b56);
+    -fx-background-radius: 10px;
+}
+
+.textfield{
+    -fx-background-color:linear-gradient(to bottom, #efefef, #eee);
+    -fx-background-radius: 4px;
+    -fx-border-color:linear-gradient(to bottom right, #23825e, #6d6e30);
+    -fx-border-radius: 4px;
+    -fx-border-width:1px;
+}
+
+.textfield:focused{
+    -fx-background-color: #fff;
+    -fx-border-width:2px;
+}
+
+.importBtn{
+    -fx-background-color: #eee;
+    -fx-text-fill: red;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+    -fx-cursor: hand;
+}
+
+.addBtn{
+    -fx-background-color: #243e6d;
+    -fx-background-radius: 8px;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+    -fx-cursor: hand;
+}
+
+.addBtn:hover{
+    -fx-background-color: #4969a1;
+}
+
+.updateBtn{
+    -fx-background-color: #3b754d;
+    -fx-background-radius: 8px;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+    -fx-cursor: hand;
+}
+
+.updateBtn:hover{
+    -fx-background-color: #459d5e;
+}
+
+.resetBtn{
+    -fx-background-color: #7f417a;
+    -fx-background-radius: 8px;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+    -fx-cursor: hand;
+}
+
+.resetBtn:hover{
+    -fx-background-color: #ae54a8;
+}
+
+.deleteBtn{
+    -fx-background-color: #86292d;
+    -fx-background-radius: 8px;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+    -fx-cursor: hand;
+}
+
+.deleteBtn:hover{
+    -fx-background-color: #b52647;
+}
+
+.payBtn{
+    -fx-background-color: #295b7c;
+    -fx-background-radius: 8px;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+    -fx-cursor: hand;
+}
+
+.payBtn:hover{
+    -fx-background-color: #2490ae;
+}
+
+.receiptBtn{
+    -fx-background-color: #6b5536;
+    -fx-background-radius: 8px;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+    -fx-cursor: hand;
+}
+
+.receiptBtn:hover{
+    -fx-background-color: #a17434;
+}
+
+
+.searchBox{
+    -fx-background-color:transparent;
+    -fx-border-color:linear-gradient(to bottom, #23825e, #6d6e30);
+    -fx-border-radius: 5px;
+    -fx-font-size: 14px;
+    -fx-font-family: "Tahoma";
+    -fx-border-width: 1px;
+}
+
+.searchBox:focused{
+    -fx-border-width:2px;
+}
+
+.tableView{
+    -fx-background-color:transparent;
+    -fx-padding: 0px;
+    -fx-border-color:linear-gradient(to bottom right, #23825e, #6d6e30);
+    -fx-border-radius: 8px;
+    -fx-border-width: 2px;
+}
+
+.tableView .column-header-background{
+    -fx-background-color:linear-gradient(to bottom right, #23825e, #6d6e30);
+    -fx-background-radius: 8px 8px 0px 0px;
+}
+
+.tableView .column-header, .filter{
+    -fx-background-color:transparent;
+    -fx-size: 40px;
+}
+
+.tableView .column-header .label{
+    -fx-text-fill: #fff;
+    -fx-font-family: "Arial";
+}
